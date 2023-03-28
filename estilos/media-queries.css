@@ -15,24 +15,85 @@
         max-width: 85vw;
         min-height: 35vh;
         max-height: 50vh;
+
+        display: flex;
+        flex-wrap: wrap;
     }
     section#img {
-        width: 35%;
+        flex-basis: 40%;
+        order: 1;
+
         height: 100%;
         background:#008BF5 url('../imagens/Ondas.png') no-repeat top left;
         background-size: cover;
     
         border-radius: 15px 0px 0px 15px;
     }
+    section#infos{
+        flex-basis: 60%;
+        order: 2;
+
+        margin: 0px
+        padding: 0px 20px;
+        margin-top: 10px;
+    }
+    input#ilogin, input#isen {
+        min-width: 86%;
+        max-width: 88%;
+    }
 
 }
 
 /*Desktop*/
 @media screen and (min-width: 992px) {
-    
+    main {
+        min-width: 60vw;
+        max-width: 75vw;
+        min-height: 45vh;
+        max-height: 60vh;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section#img {
+        flex-basis: 45%;
+        order: 2;
+
+        margin: 0px;
+        border-radius: 0px 15px 15px 0px;
+    }
+    section#infos{
+        flex-basis: 55%;
+        order: 1;
+
+        margin: 0px;
+        margin: auto 0px;
+    }
 }
 
 /*Grandes Telas*/
 @media screen and (min-width: 1200px) {
-    
+    main {
+        min-width: 700px;
+        max-width: 900px;
+        min-height: 450px;
+        max-height: 600px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section#img {
+        flex-basis: 45%;
+        order: 2;
+
+        margin: 0px;
+        border-radius: 0px 15px 15px 0px;
+    }
+    section#infos{
+        flex-basis: 55%;
+        order: 1;
+
+        margin: 0px;
+        margin: auto 0px;
+    }
 }

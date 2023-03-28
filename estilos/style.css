@@ -64,7 +64,7 @@ form label {
     vertical-align: middle;
 }
 #ilogin, #isen {
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
     height: 5vh;
     min-width: 78%;
     max-width: 90%;
@@ -91,11 +91,11 @@ form label {
     border: 2px solid #25D0BC;
 }
 #enviar:hover{
-    background-color: #93fff2c0;
-    color: #25D0BC;
+    background-color: #066e62;
+    color: #fff;
 }
 #reset:hover{
     background-color: #93fff2c0;
-    color: white;
+    color: #066e62;
     border: none;
 }
