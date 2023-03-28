@@ -70,7 +70,7 @@ form label {
     max-width: 90%;
     margin-top: 5px;
     padding: 1px;
-    color: rgb(237, 237, 237);
+    color: rgb(122, 122, 122);
     border-radius: 8px;
     border: none;
 }
@@ -98,4 +98,7 @@ form label {
     background-color: #93fff2c0;
     color: #066e62;
     border: none;
+}
+#enviar:active, #reset:active {
+    background-color: #25D0BC;
 }
