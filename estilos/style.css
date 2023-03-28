@@ -16,7 +16,8 @@ body{
 }
 
 main {
-    max-width: 45vw;
+    min-width: 45vw;
+    max-width: 65vw;
     height: 75vh;
     margin: auto;
 
@@ -59,17 +60,22 @@ fieldset, #enviar, #reset {
     border: none;
 }
 form label {
-    padding: 4px;
+    padding: 0px 5px;
     vertical-align: middle;
 }
 #ilogin, #isen {
+    background-color: lightgray;
     height: 5vh;
-    width: 80%;
+    min-width: 78%;
+    max-width: 90%;
     margin-top: 5px;
     padding: 1px;
     color: rgb(237, 237, 237);
     border-radius: 8px;
     border: none;
+}
+#ilogin:focus-visible, #isen:focus-visible{
+    background-color: white;
 }
 #enviar, #reset{
     height: 5.5vh;
@@ -83,4 +89,13 @@ form label {
     color: #25D0BC;
     background-color: white;
     border: 2px solid #25D0BC;
+}
+#enviar:hover{
+    background-color: #93fff2c0;
+    color: #25D0BC;
+}
+#reset:hover{
+    background-color: #93fff2c0;
+    color: white;
+    border: none;
 }
