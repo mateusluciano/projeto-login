@@ -84,7 +84,7 @@
 @media (prefers-color-scheme: dark) {
     /* Estilos para o modo escuro */
     main {
-        background-color: #353535;
+        background-color: #003863;
     }
     section#login {
         background-color: #202020;
@@ -113,6 +113,15 @@
     }
     div#formulario > p {
         color: #FFFFFF;
+    }
+    form > div.campo {
+        background-color: #1B998B;
+    }
+    div.campo > input {
+        border: 3px solid #1B998B;
+    }
+    div.campo > input:focus-within {
+        color: rgb(240, 240, 240);
     }
     form > a.botao {
         background-color: #353535;
