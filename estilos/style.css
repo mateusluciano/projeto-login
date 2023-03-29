@@ -3,5 +3,58 @@
 /*
 Paleta de Cores
 
-
+Verde: #1B998B
+Azul: #008BF5
+Verde Claro: #31D8BA
+Areia: #E2DADB
+Cinza Chumbo: #555555
 */
+
+* {
+    font-family: system-ui, '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #31D8BA;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 500px;
+
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.45);
+    
+}
+
+section#login > div#imagem {
+    display: block;
+    height: 200px;
+
+    background: #008BF5 url('../imagens/img-pq.png') no-repeat top center;
+    background-size: cover;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
+}
