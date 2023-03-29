@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+@media screen and (orientation: landscape) {
+    section#login {
+        width: 500px;
+        height: 250px;
+    }
+    section#login > div#imagem {
+        width: 200px;
+        height: 100%;
+        float: right;
+    }
+    section#login > div#formulario {
+        width: 300px;
+        height: 100%;
+        float: left;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width:992px) {
     main {
         background-image: linear-gradient(to top, #DAF2F8, #FFFFFF, #DAF2F8);
@@ -13,7 +30,6 @@
         height: 100%;
         float: left;
 
-        
         background-image: url(../imagens/img.png);
     }
     section#login >div#formulario{
