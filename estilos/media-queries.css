@@ -80,3 +80,41 @@
         text-align: center;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    /* Estilos para o modo escuro */
+    main {
+        background-color: #353535;
+    }
+    section#login {
+        background-color: #202020;
+    }
+    div#formulario > h1 {
+        color: rgb(240, 240, 240);
+    }
+    div#formulario > p {
+        color: #FFFFFF;
+    }
+    form > a.botao {
+        background-color: #353535;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) and (min-width:768px) {
+    /* Estilos para o modo escuro */
+    main {
+        background-image: linear-gradient(to bottom, #0061ac, #003863);
+    }
+    section#login {
+        background-color: #202020;
+    }
+    div#formulario > h1 {
+        color: rgb(240, 240, 240);
+    }
+    div#formulario > p {
+        color: #FFFFFF;
+    }
+    form > a.botao {
+        background-color: #353535;
+    }
+  }
